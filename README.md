@@ -1,35 +1,22 @@
 # 📊 Data Mining & Machine Learning - Academic Portfolio
 
-Selamat datang di repositori dokumentasi pembelajaran dan praktikum mata kuliah **Data Mining & Machine Learning**. Repositori ini berisi rangkuman materi teori, eksplorasi kode Python, serta implementasi algoritma yang diadaptasi dari kurikulum **IBM Data Science Specialization (Coursera)** dan materi perkuliahan.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange.svg)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458.svg)](https://pandas.pydata.org/)
+[![Course](https://img.shields.io/badge/Course-IBM%20Data%20Science-blueviolet.svg)](https://www.coursera.org/)
+
+Repositori ini berisi dokumentasi praktikum, rangkuman teori, dan implementasi algoritma **Data Mining & Machine Learning** yang diadaptasi dari kurikulum **IBM Data Science Specialization (Coursera)** serta perkuliahan akademis.
 
 ---
 
-## 📑 Daftar Isi Pertemuan
+## 📂 Struktur Repositori
 
-1. [Pertemuan 1: Introduction to Data Mining & Machine Learning Life Cycle](pertemuan_01.py)
-2. [Pertemuan 2: Data Preprocessing, Cleaning, & Exploratory Data Analysis (EDA)](pertemuan_02.py)
-3. [Pertemuan 3: Supervised Learning - Regression Models](pertemuan_03.py)
-4. [Pertemuan 4: Supervised Learning - Classification Algorithms](pertemuan_04.py)
-5. [Pertemuan 5: Unsupervised Learning - Clustering & Dimensionality Reduction](pertemuan_05.py)
-6. [Pertemuan 6: Model Evaluation, Cross-Validation, & Hyperparameter Tuning](pertemuan_06.py)
-
----
-
-## 📌 Pertemuan 1: Introduction to Data Mining & Machine Learning Life Cycle
-
-### 💡 Konsep & Teori
-* **Metodologi CRISP-DM** (*Cross-Industry Standard Process for Data Mining*): Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, Deployment.
-* **Perbedaan Supervised, Unsupervised, & Reinforcement Learning**.
-
-### 💻 Implementasi Kode (Setting Up Environment & Data Overview)
-```python
-import pandas as pd
-import numpy as np
-
-# Load Sample Dataset (IBM Telecom Customer Churn Concept)
-df = pd.read_csv('[https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Datafiles/auto.csv](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Datafiles/auto.csv)', header=None)
-
-# Inspection
-print("Data Shape:", df.shape)
-print("\nFirst 5 Rows:")
-print(df.head())
+```text
+.
+├── README.md             # Dokumentasi utama dan rangkuman teori
+├── pertemuan_01.py       # Data Loading & CRISP-DM Overview
+├── pertemuan_02.py       # Preprocessing & Exploratory Data Analysis (EDA)
+├── pertemuan_03.py       # Multiple Linear Regression Model
+├── pertemuan_04.py       # Decision Tree Classification
+├── pertemuan_05.py       # PCA & K-Means Clustering
+└── pertemuan_06.py       # Model Evaluation & GridSearch CV
