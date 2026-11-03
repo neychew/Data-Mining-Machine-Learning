@@ -6,12 +6,12 @@ Selamat datang di repositori dokumentasi pembelajaran dan praktikum mata kuliah 
 
 ## 📑 Daftar Isi Pertemuan
 
-1. [Pertemuan 1: Introduction to Data Mining & Machine Learning Life Cycle](#pertemuan-1-introduction-to-data-mining--machine-learning-life-cycle)
-2. [Pertemuan 2: Data Preprocessing, Cleaning, & Exploratory Data Analysis (EDA)](#pertemuan-2-data-preprocessing-cleaning--exploratory-data-analysis-eda)
-3. [Pertemuan 3: Supervised Learning - Regression Models](#pertemuan-3-supervised-learning---regression-models)
-4. [Pertemuan 4: Supervised Learning - Classification Algorithms](#pertemuan-4-supervised-learning---classification-algorithms)
-5. [Pertemuan 5: Unsupervised Learning - Clustering & Dimensionality Reduction](#pertemuan-5-unsupervised-learning---clustering--dimensionality-reduction)
-6. [Pertemuan 6: Model Evaluation, Cross-Validation, & Hyperparameter Tuning](#pertemuan-6-model-evaluation-cross-validation--hyperparameter-tuning)
+1. [Pertemuan 1: Introduction to Data Mining & Machine Learning Life Cycle](pertemuan_01.py)
+2. [Pertemuan 2: Data Preprocessing, Cleaning, & Exploratory Data Analysis (EDA)](pertemuan_02.py)
+3. [Pertemuan 3: Supervised Learning - Regression Models](pertemuan_03.py)
+4. [Pertemuan 4: Supervised Learning - Classification Algorithms](pertemuan_04.py)
+5. [Pertemuan 5: Unsupervised Learning - Clustering & Dimensionality Reduction](pertemuan_05.py)
+6. [Pertemuan 6: Model Evaluation, Cross-Validation, & Hyperparameter Tuning](pertemuan_06.py)
 
 ---
 
